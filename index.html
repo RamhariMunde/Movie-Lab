@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie's</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Movie Creator Form</h1>
+    <form id="form" onsubmit="inputLogic(event)">
+        <div id="divmain">
+        <div>
+            <label for="title">Enter Movie Name: </label>
+            <input type="text" name="title" id="title" required>
+        </div><br>
+        <div>
+             <label for="image">Enter Poster Adree: </label>
+             <input type="text" name="image" id="image" required>
+        </div><br>
+        <div>
+            <label for="link">Enter Movie Link: </label>
+            <input type="text" id="link" name="link" required>
+        </div><br>
+        <button id="btn">Prasad</button>
+        </div>
+    </form>
+    <div id="movies"></div>
+    <script src="./movie.js"></script>
+</body>
+</html>
